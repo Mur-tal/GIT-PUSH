@@ -3,8 +3,11 @@ This script will make your workflow easier and less repititive.
 
 <details>
 <summary><b>There are three files:</b></summary>
+
 * git_add_file; this add selection of file(s), commit & push
+
 * git_add_all; this add all files, commit & push
+
 * git_modified; this commit (ie commit -am 'msg') and push modified files
 
 </details>
