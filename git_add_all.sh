@@ -7,5 +7,5 @@ git add .
 read -p "Enter your commit message: " commit # input from user
 git commit -m "$commit"
 
-# this line sends your changes to the remote repository
+# sends your files to the remote repository
 git push
