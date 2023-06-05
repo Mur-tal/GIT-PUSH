@@ -27,7 +27,7 @@ You can stop here and keep copying/move the file to the directory you want to pu
 
 * <b>Step 5:</b> Paste this command into your terminal and press enter 
 ```
-sudo ln push /usr/local/bin/filename
+sudo ln 'filename' /usr/local/bin/'filename'
 ```
 
 * <b>Step 6:</b> Cheers!!!!! Anytime you need to push, just type the appropriate 'filename' on your terminal and press enter.
