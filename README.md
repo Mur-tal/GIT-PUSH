@@ -12,18 +12,21 @@ This script will make your workflow easier and less repititive.
 
 </details>
 
-Step 1: Create a file named '<file>' --> this file can be created at any location.
+<b>Step 1:</b> Create a file named 'filename' --> this file can be created at any location.
 
-Step 2: Copy and paste the code from the the appropriate 'file' from this repo, add a new line after git push then save and exit.
+<b>Step 2:</b> Copy and paste the code from the the appropriate 'filename' from this repo, add a new line after git push then save and exit.
 
-Step 3: Make the executable with 'chmod +x push' or 'chmod 744'
+<b>Step 3:</b> Make the executable with 'chmod +x push' or 'chmod 744 filename'
 
-Step 4: At this point, you script has been created and you can test it with the command './<file>'
+<b>Step 4:</b> At this point, you script has been created and you can test it with the command './filename'
 
-You can stop here and copy or move the file to the directory you want to push but as developers we are lazy people. So the next steps will ensure that you can push anywhere in your terminal. To do this, we have to add our script to $PATH.
+You can stop here and keep copying/move the file to the directory you want to push, but as developers we are lazy people. So the next steps will ensure that you can push anywhere in your terminal. To do this, we have to add our script to $PATH.
 
-Step 5: Paste this command 'sudo ln push /usr/local/bin/<file>' into your terminal press enter
+<b>Step 5:</b> Paste this command into your terminal press enter 
+```
+sudo ln push /usr/local/bin/filename
+```
 
-Step 6: Cheers!!!!! Anytime you need to push, just type '<file>' on your terminal and press enter.
+<b>Step 6:</b> Cheers!!!!! Anytime you need to push, just type the appropriate 'filename' on your terminal and press enter.
 
 #### Modified from the work of Bayomi (@semudaraabayomi)
