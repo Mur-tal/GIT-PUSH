@@ -1,5 +1,5 @@
 ## Instruction
-This script will make your workflow easier and less repititive.
+This script will make your workflow easier and less repetitive.
 
 <details>
 <summary><b>There are three files:</b></summary>
@@ -25,7 +25,7 @@ This script will make your workflow easier and less repititive.
 
 You can stop here and keep copying/move the file to the directory you want to push, but as developers we are lazy people. So the next steps will ensure that you can push anywhere in your terminal. To do this, we have to add our script to $PATH.
 
-* <b>Step 5:</b> Paste this command into your terminal press enter 
+* <b>Step 5:</b> Paste this command into your terminal and press enter 
 ```
 sudo ln push /usr/local/bin/filename
 ```
@@ -34,4 +34,5 @@ sudo ln push /usr/local/bin/filename
 
 </details>
 
-#### Modified from the work of Bayomi (@semudaraabayomi)
+#### Acknowledgement 
+Modified from the work of [Bayomi](https://github.com/Bayomsss/gitpushwithease) (@semudaraabayomi)
